@@ -28,6 +28,10 @@ class ChatRequest(BaseModel):
 def home():
     return {"message": "Excel AI Assistant Backend Running ✅"}
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 @app.post("/chat")
 def chat(req: ChatRequest):
     try:
@@ -149,9 +153,7 @@ async def upload_file(file: UploadFile = File(...)):
     except Exception as e:
         return JSONResponse({"ok": False, "detail": f"Upload/parsing failed: {str(e)}"}, status_code=500)
 
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+
 
 @app.get("/uploaded_data/{file_id}")
 def uploaded_data(file_id: str, sheet: int = 0):
