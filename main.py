@@ -149,6 +149,9 @@ async def upload_file(file: UploadFile = File(...)):
     except Exception as e:
         return JSONResponse({"ok": False, "detail": f"Upload/parsing failed: {str(e)}"}, status_code=500)
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 
 @app.get("/uploaded_data/{file_id}")
 def uploaded_data(file_id: str, sheet: int = 0):
