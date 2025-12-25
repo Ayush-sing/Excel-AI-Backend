@@ -1,0 +1,10 @@
+# Uploaded user files (VERY IMPORTANT)
+uploaded_files/
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log

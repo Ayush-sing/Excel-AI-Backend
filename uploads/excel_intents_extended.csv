@@ -1,0 +1,157 @@
+message,intent
+sum all values in column A,sum_column
+add the sales data,sum_column
+total the numbers in this column,sum_column
+what is the total revenue,sum_column
+calculate the sum of these entries,sum_column
+average the test scores,average_column
+find mean of marks,average_column
+what is the average sales,average_column
+give me the average of this column,average_column
+compute mean value,average_column
+sort this column in ascending order,sort_data
+sort data by revenue,sort_data
+order the list from lowest to highest,sort_data
+arrange the column Z,sort_data
+can you sort this table,sort_data
+create a chart of sales over months,create_chart
+make a graph from this data,create_chart
+I want a pie chart,create_chart
+visualize this using a bar chart,create_chart
+show data in a chart,create_chart
+filter out all entries below 50,filter_rows
+show only rows with status complete,filter_rows
+hide incomplete records,filter_rows
+filter this column by 'done',filter_rows
+can I view only completed tasks,filter_rows
+count how many entries are there,count_items
+how many items in this column,count_items
+get the number of rows,count_items
+count total records,count_items
+number of entries,count_items
+sum Order ID,sum_column
+total Order ID,sum_column
+add up Order ID,sum_column
+calculate sum of Order ID,sum_column
+sum Region,sum_column
+total Region,sum_column
+add up Region,sum_column
+calculate sum of Region,sum_column
+sum Category,sum_column
+total Category,sum_column
+add up Category,sum_column
+calculate sum of Category,sum_column
+sum Sales,sum_column
+total Sales,sum_column
+add up Sales,sum_column
+calculate sum of Sales,sum_column
+sum Profit,sum_column
+total Profit,sum_column
+add up Profit,sum_column
+calculate sum of Profit,sum_column
+sum Quantity,sum_column
+total Quantity,sum_column
+add up Quantity,sum_column
+calculate sum of Quantity,sum_column
+average Order ID,average_column
+mean Order ID,average_column
+find average of Order ID,average_column
+average Region,average_column
+mean Region,average_column
+find average of Region,average_column
+average Category,average_column
+mean Category,average_column
+find average of Category,average_column
+average Sales,average_column
+mean Sales,average_column
+find average of Sales,average_column
+average Profit,average_column
+mean Profit,average_column
+find average of Profit,average_column
+average Quantity,average_column
+mean Quantity,average_column
+find average of Quantity,average_column
+maximum Order ID,max_column
+highest Order ID,max_column
+find max of Order ID,max_column
+maximum Region,max_column
+highest Region,max_column
+find max of Region,max_column
+maximum Category,max_column
+highest Category,max_column
+find max of Category,max_column
+maximum Sales,max_column
+highest Sales,max_column
+find max of Sales,max_column
+maximum Profit,max_column
+highest Profit,max_column
+find max of Profit,max_column
+maximum Quantity,max_column
+highest Quantity,max_column
+find max of Quantity,max_column
+minimum Order ID,min_column
+lowest Order ID,min_column
+find min of Order ID,min_column
+minimum Region,min_column
+lowest Region,min_column
+find min of Region,min_column
+minimum Category,min_column
+lowest Category,min_column
+find min of Category,min_column
+minimum Sales,min_column
+lowest Sales,min_column
+find min of Sales,min_column
+minimum Profit,min_column
+lowest Profit,min_column
+find min of Profit,min_column
+minimum Quantity,min_column
+lowest Quantity,min_column
+find min of Quantity,min_column
+count rows,count_rows
+how many rows,count_rows
+number of rows,count_rows
+filter where Order ID is high,filter_rows
+show rows where Order ID is large,filter_rows
+filter where Region is high,filter_rows
+show rows where Region is large,filter_rows
+filter where Category is high,filter_rows
+show rows where Category is large,filter_rows
+filter where Sales is high,filter_rows
+show rows where Sales is large,filter_rows
+filter where Profit is high,filter_rows
+show rows where Profit is large,filter_rows
+filter where Quantity is high,filter_rows
+show rows where Quantity is large,filter_rows
+describe data,describe_data
+summary of dataset,describe_data
+show statistics,describe_data
+unique values in Order ID,value_counts
+value counts of Order ID,value_counts
+unique values in Region,value_counts
+value counts of Region,value_counts
+unique values in Category,value_counts
+value counts of Category,value_counts
+unique values in Sales,value_counts
+value counts of Sales,value_counts
+unique values in Profit,value_counts
+value counts of Profit,value_counts
+unique values in Quantity,value_counts
+value counts of Quantity,value_counts
+chart of Order ID,create_chart
+plot Order ID,create_chart
+bar chart for Order ID,create_chart
+chart of Region,create_chart
+plot Region,create_chart
+bar chart for Region,create_chart
+chart of Category,create_chart
+plot Category,create_chart
+bar chart for Category,create_chart
+chart of Sales,create_chart
+plot Sales,create_chart
+bar chart for Sales,create_chart
+chart of Profit,create_chart
+plot Profit,create_chart
+bar chart for Profit,create_chart
+chart of Quantity,create_chart
+plot Quantity,create_chart
+bar chart for Quantity,create_chart
